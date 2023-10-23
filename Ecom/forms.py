@@ -10,4 +10,4 @@ class CustomerUserform(UserCreationForm):
 
     class meta:
         model = User
-        fields =['user,email,password1,password2']
+        fields =['user','email','password1','password2']
