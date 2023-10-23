@@ -4,9 +4,9 @@
 <h1>
    {% for items in category %}
    <a href="{% url 'productviwes' items.slug %}" > 
-   <img src="{{ items.image.url }}" alt="" height="400px" width="auto">
+   <img src="{{ items.image.url }}" alt="" height="auto" width="auto">
    </a>
-   <h1>{{items.name}}</h1>
+   <h3>{{items.name}}</h3>
    {% endfor %}
 
 </h1>
